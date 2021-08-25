@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+
+    background-color: #131313;
+
+}
+
+h1{
+
+    color: white;
+    font-family: 'Roboto', Arial, sans-serif;
+
+}
+
+.media-picture{
+
+    width: 100%;
+    height: 400px;
+    background-image: url('https://a-static.besthdwallpaper.com/vingadores-era-de-ultron-papel-de-parede-1280x800-11744_3.jpg');
+    background-size: cover;
+    background-position: top;
+
+}
+
+.review-score{
+    
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+    
+}
+
+h2{
+
+    color: steelblue;
+
+}
+
+p{
+
+    color: #bdbdbd;
+    font-family: 'Roboto', Arial, sans-serif;
+
+}
+
+a{
+    
+    color: yellow;
+
+}
+
