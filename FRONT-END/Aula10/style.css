@@ -1,0 +1,40 @@
+.bannerPicture{
+
+    background-image: url('https://ventosul.com.br/img/garuBanner.jpg');
+    width: 1460px;
+    height: 400px;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+
+}
+
+.titulo{
+
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    text-align: center;
+        
+}
+
+.subtitulo{
+
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.botaoInteracao{
+
+    width: 100px;
+    height: 40px;
+    background-color: rgba(70, 158, 146, 0.397);
+    text-align: center;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
