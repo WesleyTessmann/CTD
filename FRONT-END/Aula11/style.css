@@ -1,0 +1,29 @@
+.body{
+    background-color: white;
+    width: 2400px;
+    height: 980px;
+}
+
+.caixaPrimeira{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+
+}
+
+.caixaSegunda{
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+    
+           
+}
+
+.caixaTerceira{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    left: 40%;
+    position: fixed;
+
+}
