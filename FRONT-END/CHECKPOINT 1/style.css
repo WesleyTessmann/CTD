@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+        background-image: url(https://ventosul.com.br/img/garuBanner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+
+header {
+
+    background-color: rgb(20, 83, 104);
+    padding: 0 18px 0 18px;
+    position: relative;
+
+}  
+
+.nomeCidade{
+
+    font-family: 'Kaisei Tokumin', sans-serif;
+    color: white;
+    font-size: 45px;
+
+}
+
+.sobreCidade{
+
+    position: relative;
+    top: 8px;
+    left: 17px;
+    font-family: 'Urbanist', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+
+.video{
+
+    position: relative;
+    top: 25px;
+    left: 18px;
+
+}
+
+.subtitulo{
+
+    position: relative;
+    top: 20px;
+    left: 37%;
+    font-family: 'Kaisei Tokumin', sans-serif;
+    color: white;
+    font-size: 35px;
+
+}
+
+.lista{
+
+    color: whitesmoke;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+
+}
+
+.links{
+
+    position: relative;
+    top: 45px;
+    left: 5%;
+    color: rgb(255, 255, 255);
+    font-family: 'Kaisei Tokumin', sans-serif;
+    font-size: 20px;
+
+}
+
+.icones{
+
+    position: relative;
+    top: 57px;
+    left: 2%;
+
+}
