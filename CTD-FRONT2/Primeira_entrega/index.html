@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CardCar - Front End II</title>
+  <link rel="icon" href="src/img/cardCar.ico" type="image/ico">
+  <link rel="stylesheet" href="src/css/global.css">
+</head>
+
+<body>
+  <main>
+
+    <div class="formEnviaInfo">
+
+      <form>
+        <label for="modeloCarro">Modelo:</label> <br>
+        <input type="text" class="modeloCarro" id="modeloCarro" placeholder="Digite o modelo do seu Carro" name="modeloCarro"><br><br>
+
+        <label for="tipoCarro">Tipo:</label> <br>
+        <input type="text" class="tipoCarro" id="tipoCarro" placeholder="Elétrico | Flex | Gasolina | Veneno" name="tipoCarro"><br><br>
+
+        <label for="AnoCarro">AnoDeFabricação:</label> <br>
+        <input type="text" class="AnoCarro" id="AnoCarro" placeholder="Insira o ano de fabricação do seu Carro" name="AnoCarro" maxlength="4"><br><br>
+
+        <label for="">Informações:</label> <br>
+        <input type="number" class="cvInfo" id="cvInfo" placeholder="Insira Quantos Cavalos de Potência" name="cvInfo"> <br>
+        <input type="number" class="kmRodadoInfo" id="kmRodadoInfo" placeholder="Insira Quantos Kms Rodados" name="kmRodadoInfo"> <br>
+        <input type="number" class="AcelaracaoInfo" id="AcelaracaoInfo" placeholder="Insira o Tempo de Acelaração de 0 à 100" name="AcelaracaoInfo"> <br>
+        <input type="number" class="velocidadeMaxInfo" id="velocidadeMaxInfo" placeholder="Insira a Velocidade Máxima" name="velocidadeMaxInfo"> <br><br>
+
+        <label for="Modificações">Modificações:</label> <br>
+        <input type="text" class="primeiraModificação" id="primeiraModificação" placeholder="Insira Modificação 01" name="primeiraModificação"> <br>
+        <input type="text" class="segundaModificação" id="segundaModificação" placeholder="Insira Modificação 02" name="segundaModificação"> <br><br>
+
+
+        <label for="urlImg">Imagem do Carro:</label> <br>
+        <input type="urlImg" class="urlImg" id="urlImg" placeholder="Insira a URL da imagem do seu Carro" name="urlImg"><br> <br>
+
+        <button type="submit" id="btnEnviar">Enviar</button>
+        <button type="reset" id="btnReset">Limpar</button>
+
+      </form>
+
+    </div>
+
+    <div class="CardCar">
+    </div>
+
+  </main>
+
+  <script src="src/javascript/main.js"></script>
+</body>
+
+</html>
